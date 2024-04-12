@@ -1,0 +1,72 @@
+body{
+  background-color:white ;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.eachElement img {
+  height: 150px;
+  width: 180px;
+  border-radius: 2em;
+}
+
+.plus {
+  background-color: rgb(24, 223, 71);
+  border: 3px solid rgb(101, 93, 122);
+}
+
+.Search h1 {
+  font-size: 80px;
+  color: rgb(0, 60, 15);
+  border-bottom: 5px solid rgb(158, 244, 164);
+}
+
+.calorie {
+  display: flex;
+  gap: 35px;
+}
+
+.info {
+  background-color: rgb(0, 255, 38);
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 2em;
+}
+
+p {
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 1rem; 
+  gap: 30px;
+  background-color: rgb(201, 197, 255);
+  border: 3px solid rgb(200, 133, 133);
+  border-radius: 2em;
+}
+
+input {
+  height: 25px;
+  width: 250px;
+}
+
+#search {
+  width: 550px;
+  height: 40px;
+  padding: 25px;
+  margin-bottom: 25px;
+  border: 3px solid rgba(13, 18, 12, 0.33);
+  color: rgb(235, 202, 202);
+  font-size: 25px;
+  background-color: aquamarine;
+}
